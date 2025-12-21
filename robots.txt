@@ -1,9 +1,0 @@
-# Tesla Referral Code - robots.txt
-# Allow all search engines to crawl and index the site
-
-User-agent: *
-Allow: /
-
-# Sitemap location (if you add one later)
-# Sitemap: https://yourdomain.com/sitemap.xml
-
