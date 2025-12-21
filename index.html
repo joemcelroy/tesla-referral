@@ -21,17 +21,16 @@
     <meta property="og:title" content="Tesla Referral Code UK | 650 Free Miles or £500 Off">
     <meta property="og:description" content="Get 650 free Supercharger miles or £500 off your Tesla order using this referral code. Works on all Tesla models in the UK.">
     <meta property="og:url" content="https://www.tesla.com/en_gb/referral/joseph550118">
+    <meta property="og:image" content="https://digitalassets-shop.tesla.com//image/upload/c_scale,w_1280/f_auto/q_auto/v1/content/dam/tesla/lootbox/lootbox_landing_page/model_y_nv36.jpg">
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Tesla Referral Code UK | 650 Free Miles or £500 Off">
     <meta name="twitter:description" content="Get 650 free Supercharger miles or £500 off your Tesla order using this referral code. Works on all Tesla models in the UK.">
+    <meta name="twitter:image" content="https://digitalassets-shop.tesla.com//image/upload/c_scale,w_1280/f_auto/q_auto/v1/content/dam/tesla/lootbox/lootbox_landing_page/model_y_nv36.jpg">
     
     <!-- Robots -->
     <meta name="robots" content="index, follow">
-    
-    <!-- Redirect (delayed slightly to allow indexing) -->
-    <meta http-equiv="refresh" content="1; url=https://www.tesla.com/en_gb/referral/joseph550118">
     
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
@@ -50,24 +49,260 @@
       }
     }
     </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gotham:wght@400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html, body {
+        height: 100%;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      }
+
+      body {
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+
+      .hero {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        padding: 2rem;
+      }
+
+      .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url('https://digitalassets-shop.tesla.com//image/upload/c_scale,w_1280/f_auto/q_auto/v1/content/dam/tesla/lootbox/lootbox_landing_page/model_y_nv36.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 0.6;
+        z-index: 0;
+      }
+
+      .hero::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0.2) 40%,
+          rgba(0, 0, 0, 0.6) 100%
+        );
+        z-index: 1;
+      }
+
+      .content {
+        position: relative;
+        z-index: 2;
+        max-width: 800px;
+        animation: fadeInUp 1s ease-out;
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .logo {
+        font-size: 1.2rem;
+        font-weight: 600;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        opacity: 0.9;
+      }
+
+      h1 {
+        font-size: clamp(2rem, 6vw, 3.5rem);
+        font-weight: 600;
+        line-height: 1.1;
+        margin-bottom: 1.5rem;
+        letter-spacing: -0.02em;
+      }
+
+      .highlight {
+        color: #e82127;
+      }
+
+      .benefits {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+        margin: 2rem 0;
+      }
+
+      .benefit {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 12px;
+        padding: 1.5rem 2rem;
+        min-width: 200px;
+        transition: transform 0.3s ease, background 0.3s ease;
+      }
+
+      .benefit:hover {
+        transform: translateY(-5px);
+        background: rgba(255, 255, 255, 0.15);
+      }
+
+      .benefit-value {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #e82127;
+        margin-bottom: 0.25rem;
+      }
+
+      .benefit-label {
+        font-size: 0.9rem;
+        opacity: 0.8;
+        font-weight: 400;
+      }
+
+      .or-divider {
+        display: flex;
+        align-items: center;
+        font-size: 0.9rem;
+        opacity: 0.6;
+        font-weight: 500;
+      }
+
+      .description {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        opacity: 0.85;
+        margin-bottom: 2.5rem;
+        font-weight: 300;
+      }
+
+      .cta-button {
+        display: inline-block;
+        background: #e82127;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 1rem 3rem;
+        border-radius: 4px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        transition: all 0.3s ease;
+        border: 2px solid #e82127;
+      }
+
+      .cta-button:hover {
+        background: transparent;
+        color: #fff;
+        transform: scale(1.05);
+      }
+
+      .models {
+        margin-top: 3rem;
+        font-size: 0.85rem;
+        opacity: 0.6;
+      }
+
+      .models span {
+        margin: 0 0.5rem;
+      }
+
+      footer {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        padding: 1.5rem;
+        font-size: 0.8rem;
+        opacity: 0.5;
+        background: rgba(0, 0, 0, 0.8);
+      }
+
+      @media (max-width: 600px) {
+        .benefits {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .or-divider {
+          transform: rotate(0deg);
+        }
+
+        .benefit {
+          width: 100%;
+          max-width: 280px;
+        }
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <h1>Tesla Referral Code UK 2025 – Get 650 Free Supercharger Miles or £500 Off</h1>
-    </header>
-    
-    <main>
-      <section>
-        <h2>Save on Your New Tesla</h2>
-        <p>Use this <strong>Tesla referral code</strong> to receive one of two amazing benefits:</p>
-        <ul>
-          <li><strong>650 Free Supercharger Miles</strong> – Perfect for long journeys across the UK</li>
-          <li><strong>£500 Off Your Order</strong> – Instant savings on your new Tesla</li>
-        </ul>
-        <p>This referral code works on all Tesla models including <strong>Model 3</strong>, <strong>Model Y</strong>, <strong>Model S</strong>, <strong>Model X</strong>, and <strong>Cybertruck</strong>.</p>
-      </section>
-      
-      <p>Redirecting to Tesla… <a href="https://www.tesla.com/en_gb/referral/joseph550118">Click here if not redirected automatically</a>.</p>
+    <main class="hero">
+      <div class="content">
+        <div class="logo">Tesla Referral</div>
+        
+        <h1>Get <span class="highlight">Free Miles</span> or <span class="highlight">£500 Off</span> Your Tesla</h1>
+        
+        <div class="benefits">
+          <div class="benefit">
+            <div class="benefit-value">650</div>
+            <div class="benefit-label">Free Supercharger Miles</div>
+          </div>
+          <div class="or-divider">OR</div>
+          <div class="benefit">
+            <div class="benefit-value">£500</div>
+            <div class="benefit-label">Off Your Order</div>
+          </div>
+        </div>
+        
+        <p class="description">
+          Use this exclusive referral link to unlock your bonus when ordering any new Tesla. 
+          Choose between free Supercharger miles for epic road trips or instant savings on your purchase.
+        </p>
+        
+        <a href="https://www.tesla.com/en_gb/referral/joseph550118" class="cta-button">
+          Order Now
+        </a>
+        
+        <div class="models">
+          <span>Model 3</span> • <span>Model Y</span> • <span>Model S</span> • <span>Model X</span> • <span>Cybertruck</span>
+        </div>
+      </div>
     </main>
+
+    <footer>
+      Tesla Referral Code UK 2025. This is not affiliated with or endorsed by Tesla, Inc.
+    </footer>
   </body>
 </html>
